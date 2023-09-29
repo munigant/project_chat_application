@@ -6,6 +6,7 @@ import './Join.css';
 export default function SignIn() {
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
+  console.log(`user details are${name} and ${room}`)
 
   return (
     <div className="joinOuterContainer">
